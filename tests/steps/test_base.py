@@ -8,7 +8,7 @@ import pickle
 
 from unittest import IsolatedAsyncioTestCase
 
-from achain.steps import Function
+from src.achain.steps import Function
 
 SLEEP_SECONDS = 0.03
 INPUT_VALUE: int = 10

@@ -1,0 +1,40 @@
+[project]
+name = "achain"
+version = "0.1.1"
+description = "Library used for chaining together synchronous and asynchronous functions for data transformation"
+readme = "README.md"
+authors = [{ name = "Christopher O. Tubbs", email = "christopherotubbs@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries"
+]
+dependencies = [
+    "pydantic >= 2.8.2",
+    "typing_extensions",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/christophertubbs/achain"
+Issues = "https://github.com/christophertubbs/achain/issues"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pip",
+]
+build-backend = "setuptools.build_meta"

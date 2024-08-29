@@ -4,7 +4,7 @@ import pickle
 
 from unittest import IsolatedAsyncioTestCase
 
-from achain.steps import ExceptionStep
+from src.achain.steps import ExceptionStep
 
 
 def print_error(last_value: int, error: BaseException, file: io.IOBase = sys.stderr) -> int:

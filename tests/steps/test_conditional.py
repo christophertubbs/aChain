@@ -1,10 +1,9 @@
-import logging
 import pickle
 
 from unittest import IsolatedAsyncioTestCase
 
-from achain.steps import ConditionalStep
-from achain.steps import Function
+from src.achain.steps import ConditionalStep
+from src.achain.steps import Function
 
 
 def predicate(value: int, *args, **kwargs) -> bool:

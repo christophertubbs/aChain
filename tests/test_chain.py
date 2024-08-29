@@ -1,6 +1,4 @@
-import asyncio
 import logging
-from functools import partial
 from unittest import IsolatedAsyncioTestCase
 
 import typing
@@ -16,8 +14,8 @@ from datetime import datetime
 
 import math
 
-from achain import Chain
-from achain.steps import call
+from src.achain import Chain
+from src.achain.steps import call
 
 Collection = typing.Union[typing.MutableMapping, typing.MutableSequence]
 Key = typing.Union[str, int]
