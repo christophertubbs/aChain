@@ -14,8 +14,8 @@ from datetime import datetime
 
 import math
 
-from src.achain import Chain
-from src.achain.steps import call
+from achain import Chain
+from achain.steps import call
 
 Collection = typing.Union[typing.MutableMapping, typing.MutableSequence]
 Key = typing.Union[str, int]

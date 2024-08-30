@@ -2,7 +2,7 @@ from unittest import IsolatedAsyncioTestCase
 
 import asyncio
 
-from src.achain.steps import ActionStep
+from achain.steps import ActionStep
 
 
 def sync_function(value: int, *args, **kwargs) -> int:

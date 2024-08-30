@@ -11,8 +11,8 @@ import pydantic
 
 from .base import SerializableFunctionMixin
 
-from src.achain.utilities import callable_name
-from src.achain.utilities import function_and_args_to_str
+from achain.utilities import callable_name
+from achain.utilities import function_and_args_to_str
 
 IT = typing.TypeVar("IT")
 """Indicates an input type"""

@@ -3,7 +3,7 @@ import pickle
 
 from unittest import IsolatedAsyncioTestCase
 
-from src.achain.steps import MultipleActionStep
+from achain.steps import MultipleActionStep
 
 
 def add_to_dict(dictionary: typing.Dict[str, typing.Any], key: str, value: typing.Any) -> typing.Any:
